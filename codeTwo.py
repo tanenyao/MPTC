@@ -42,8 +42,8 @@ while True:
 			l.append(GPIO.input(15))
 			l.append(GPIO.input(18))
 			l.append(GPIO.input(23))
-			time.sleep(delay2)
 			print(l)
+			time.sleep(delay2)
 
 		if c==0:
 			c+=1
@@ -54,7 +54,6 @@ while True:
 			c=0
 			print(' ')
 			time.sleep(delay3)
-
 
 	if GPIO.input(14)==1 and b==1:
 		time.sleep(delay1)
