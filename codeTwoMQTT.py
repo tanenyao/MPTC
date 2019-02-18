@@ -33,7 +33,7 @@ c=0
 b=0
 
 localhost = '172.20.115.20'
-topic = 'mptc/oven'
+topic = 'Sensors/RaspberryPi01/PepperlFuchs01/Laser01'
 payload = ''
 
 GPIO.setmode(GPIO.BCM)
